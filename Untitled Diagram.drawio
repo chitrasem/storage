@@ -1,0 +1,64 @@
+<mxfile host="app.diagrams.net" modified="2024-06-17T06:52:22.465Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:127.0) Gecko/20100101 Firefox/127.0" version="24.5.4" etag="F0CUAPstiux0GBd3HnsK" type="github">
+  <diagram name="Page-1" id="-v4gzxzuZHU6TR4zUAdw">
+    <mxGraphModel>
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" value="UserSide" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry y="12" width="77" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="3" value="MerchantSide" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="192" y="12" width="111" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="4" value="InternetBankSide" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="419" y="12" width="138" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="5" value="ApiSide" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="672" y="12" width="68" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="6" value="Request" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.27;entryX=0;entryY=0.22;" edge="1" parent="1" source="2" target="3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="134" y="10" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7" value="Request" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.22;entryX=0;entryY=0.19;" edge="1" parent="1" source="3" target="4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="361" y="10" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8" value="Process" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.19;entryX=0;entryY=0.29;" edge="1" parent="1" source="4" target="5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="614" y="10" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9" value="Response" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.71;entryX=1;entryY=0.81;" edge="1" parent="1" source="5" target="4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="614" y="49" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="10" value="Response" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.81;entryX=1;entryY=0.78;" edge="1" parent="1" source="4" target="3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="361" y="49" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="11" value="Response" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.78;entryX=1;entryY=0.73;" edge="1" parent="1" source="3" target="2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="134" y="49" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
